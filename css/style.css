@@ -1,0 +1,966 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+/* -----------header----------- */
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 90px;
+}
+
+.header .header-around-1{
+    display: flex;
+    justify-content: center;
+    padding: 20px 300px 20px 0;
+}
+
+.header .header-logo{
+    
+}
+
+.header-logo h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:oblique;
+    color: rgba(124, 154, 253, 0.904);
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.header-logo h1:hover {
+    background-color: rgba(36, 87, 255, 0.904) ;
+    color: white;
+    cursor:pointer;
+}
+
+.header .header-catelory{
+    padding: 15px 20px;
+    
+
+}
+
+.header-catelory ul {
+
+}
+
+.header-catelory ul li{
+    display: inline;
+    
+}
+
+.header-catelory ul li button{
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    width: 130px;
+    font-size: 17.5px;
+    font-weight: bold;
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-catelory ul li button:hover {
+    background-color: rgba(36, 87, 255, 0.904) ;
+    color: white;
+    cursor:pointer;
+}
+
+.header .header-around-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.header-around-2 .header-search {
+    border-radius: 20px;
+    background-color: rgb(218, 218, 218);
+    margin: 32px 0 ;
+    width: 220px;
+    height: 30px;
+    
+}
+
+.header-search:hover {
+    background-color: rgba(36, 87, 255, 0.904) ;
+}
+
+.header-around-2 .header-search input {
+    border-radius: 20px;
+    padding: 8px;
+    width: 180px;
+    height: 100%;
+    font-size: 17.5px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(236, 234, 234);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.header-search input:hover{
+    background-color: white;
+    cursor: text;
+    border: 2px solid  rgba(36, 87, 255, 0.904);
+    color: black;
+}
+
+.header-search button{
+    border-radius: 50%;
+    font-size: 17.5px;
+    padding: 5px;
+    border: 2px solid lightgrey;
+    color: black;
+    height: 30px;
+}
+
+.header-around-2 .header-language {
+    padding: 30px 10px;
+}
+
+.header-language button {
+    border: none;
+    border-radius: 20px;
+    width: 70px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 17.5px;
+    text-align: center;
+    height: 30px;
+    background-color: rgb(236, 234, 234);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-language button:hover {
+    cursor: pointer;
+    background-color: rgba(36, 87, 255, 0.904);
+    color: white;
+}
+
+.header-around-2 .header-network {
+    
+}
+
+.header-network .header-network-social {
+    font-size: 20px;
+    padding: 30px 2px;
+}
+
+.header-network-social i {
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: 40px;
+    height: 30px;
+    background-color: rgb(236, 234, 234);
+
+}
+
+.header-network-social i:hover {
+    background-color: rgba(36, 87, 255, 0.904);
+    color: white;
+    cursor: pointer;
+}
+
+/* -----------------news------------- */
+.news {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0 80px 0 ;
+}
+
+.news .news-title-left{
+    font-family:cursive;
+    
+}
+
+.news-title-left .text-1 {
+    font-size: 80px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.news-title-left .text-2 {
+    font-size: 50px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.news-title-left h2 {
+    font-size: 50px;
+    padding-left: 300px;
+    padding-top: 20px;
+
+}
+
+.news .news-title-center{
+    text-align: center;
+    position: relative;
+}
+
+.news-title-center img {
+    border-radius: 50%;
+    border: 3px solid rgba(27, 27, 27, 0.904) ;
+    height: 600px;
+    width: 600px;
+    filter:brightness(90%);
+    box-shadow: 10px 10px 10px rgba(44, 44, 44, 0.904);
+
+}
+
+.news-title-center h1 {
+    position: absolute;
+    bottom: 130px;
+    left: -300px;
+    font-size: 150px;
+    color:rgb(235, 238, 70) ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 20px 20px 20px rgb(31, 30, 30);
+}
+
+
+.news .news-title-right{
+    padding-top: 80px;
+}
+
+.news-title-right .title-right-text-1 {
+    text-align: center;
+    font-family: cursive;
+    padding: 20px;
+}
+
+.title-right-text-1 i {
+    font-size: 30px;
+}
+
+.title-right-text-1 h3 {
+    font-size: 20px;
+}
+
+.title-right-text-1 p {
+    font-size: 18px;
+    color: gray;
+}
+
+.news-title-right .title-right-text-2 {
+    text-align: center;
+    font-family: cursive;
+    padding: 20px;
+}
+
+.title-right-text-2 i {
+    font-size: 30px;
+}
+
+.title-right-text-2 h3 {
+    font-size: 20px;
+}
+
+.title-right-text-2 p {
+    font-size: 18px;
+    color: gray;
+}
+
+.news-title-right .title-right-text-3 {
+    text-align: center;
+    font-family: cursive;
+    padding: 20px;
+}
+
+.title-right-text-3 i {
+    font-size: 30px;
+}
+
+.title-right-text-3 h3 {
+    font-size: 20px;
+}
+
+.title-right-text-3 p {
+    font-size: 18px;
+    color: gray;
+}
+
+/* ----------destination-------- */
+
+.destination {
+    padding: 120px 0;
+}
+
+.destination .destination-title-top{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.destination .destination-title-top:hover {
+    cursor: pointer;
+    color: rgba(124, 154, 253, 0.904);
+
+}
+
+.destination-title-top h1 {
+    text-align: center;
+    font-size: 50px;
+    text-decoration-line: underline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+.destination .title-destination {
+    display: flex;
+    justify-content: center;
+}
+
+.title-destination .title-destination-danang {
+    font-family: cursive;
+    text-align: center;
+    padding: 0px 20 px 20px 20px;
+    
+}
+
+.title-destination .title-destination-danang i {
+    font-size: 50px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.title-destination-danang h1 {
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 300px;
+    margin-left: 130px;
+    -moz-box-shadow: -3px -3px 5px 0px #666;
+    -webkit-box-shadow: -3px -3px 5px 0px #666;
+    box-shadow: -3px -3px 5px 0px #666;
+    text-align: center;
+}
+
+.title-destination-danang h1:hover {
+    background-color: rgba(124, 154, 253, 0.904);
+    color: white;
+}
+
+.title-destination-danang .video-danang {
+    padding: 20px 0;
+    
+}
+
+.title-destination-danang .video-danang:hover {
+    cursor: pointer;
+}
+
+.video-danang video {
+    width: 550px;
+    height: 300px;
+    border-radius: 30px
+}
+
+.title-destination .title-destination-hoian {
+    font-family: cursive;
+    text-align: center;
+    padding: 0px 0px 20px 0;
+}
+
+.title-destination .title-destination-hoian i {
+    font-size: 50px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
+.title-destination-hoian h1 {
+    font-size: 30px;
+    border: 2px solid black;
+    width: 300px;
+    margin-left: 130px;
+    border-radius: 20px;
+    -moz-box-shadow: -3px -3px 5px 0px #666;
+    -webkit-box-shadow: -3px -3px 5px 0px #666;
+    box-shadow: -3px -3px 5px 0px #666;
+    text-align: center;
+}
+
+.title-destination-hoian h1:hover {
+    background-color: rgba(124, 154, 253, 0.904);
+    color: white;
+}
+
+
+.title-destination-hoian .video-hoian {
+    padding: 20px;
+    
+}
+
+.title-destination-hoian .video-hoian:hover {
+    cursor: pointer;
+}
+
+.video-hoian video {
+    width: 550px;
+    height: 300px;
+    border-radius: 30px
+}
+
+/* -------------local-food---------- */
+
+.local-food {
+    margin: 20px 0;
+}
+
+
+.local-food .local-food-title {
+    padding-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    text-decoration-line: underline;
+    text-align: center;
+    padding-right: 940px;
+}
+
+.local-food .local-food-title:hover {
+    cursor: pointer;
+    color: rgba(124, 154, 253, 0.904);
+}
+
+.local-food .local-food-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.local-food-image .food-image-1 {
+    background-image: url(../image/bunmam.jpg);
+    background-position: cover;
+    background-size: cover;
+    height: 450px;
+    width: 350px;
+    position: relative;
+    border-radius: 10px;
+    filter: brightness(95%);
+    box-shadow: 10px 10px 10px rgba(214, 214, 214, 0.904);
+}
+
+.local-food-image .food-image-1:hover{
+    filter: blur(1px);
+    cursor: pointer;
+}
+
+.local-food-image .food-image-1 h2{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.local-food-image .food-image-2 {
+    background-image: url(../image/banhmi.jpg);
+    background-position: cover;
+    background-size: cover;
+    height: 450px;
+    width: 350px;
+    position: relative;
+    border-radius: 10px;
+    filter: brightness(95%);
+    margin-left: 50px;
+    box-shadow: 10px 10px 10px rgba(214, 214, 214, 0.904);
+    
+}
+.local-food-image .food-image-2:hover{
+    filter: blur(1px);
+    cursor: pointer;
+}
+
+.local-food-image .food-image-2 h2{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.local-food-image .food-image-3 {
+    background-image: url(../image/goithai.jpg);
+    background-position: cover;
+    background-size: cover;
+    height: 450px;
+    width: 350px;
+    position: relative;
+    border-radius: 10px;
+    filter: brightness(95%);
+    margin-left: 50px;
+    box-shadow: 10px 10px 10px rgba(214, 214, 214, 0.904)
+}
+
+.local-food-image .food-image-3:hover{
+    filter: blur(1px);
+    cursor: pointer;
+}
+
+.local-food-image .food-image-3 h2{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/* ----------review--------- */
+
+.review {
+    background-image: url(../image/bg-rv3.jpg);
+    background-size: cover;
+    padding: 40px 0;
+    margin-top: 100px;
+}
+
+.review .title-main {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    padding: 0px 325px 20px 290px;
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+
+.review .title-main:hover {
+    cursor: pointer;
+    color: rgba(124, 154, 253, 0.904);
+}
+
+.review .title-sub {
+    display: flex;
+    justify-content: center;
+}
+
+.title-sub .sub-main {
+    position: relative;
+    width: 530px;
+    height: 380px;
+    margin-right: 60px;
+}
+
+.sub-main img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(26, 25, 25, 0.904);
+}
+
+.sub-main:hover {
+    cursor: pointer;
+}
+
+
+.sub-main h1 {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    background-color: white;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.title-sub .sub-main-1 {
+
+}
+
+.sub-main-1 hr {
+    width: 300px;
+    border-top: dotted 1px;
+    border-bottom: dotted 1px;
+    color: rgba(241, 238, 238, 0.452);
+    margin: 10px 30px;
+
+}
+
+.sub-main-1 ul {
+}
+
+.sub-main-1 ul li{
+    display: flex;
+    padding: 5px 25px;
+}
+
+.sub-main-1 ul li:hover {
+    cursor: pointer;
+}
+
+.sub-main-1 ul li img {
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(26, 25, 25, 0.904);
+}
+
+
+.sub-main-1 ul li p {
+    font-size: 17px;
+    font-family: cursive;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+/* --------Exerience----------- */
+
+.experience {
+    /* padding-right: 150px; */
+}
+
+.experience .experience-title {
+    margin-top: 30px;
+}
+
+.experience-title h1 {
+    text-decoration-line: underline;
+    text-align: center;
+    padding-right: 980px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.experience-title h1:hover{
+    color: rgba(124, 154, 253, 0.904);
+    cursor: pointer;
+}
+
+.experience .experience-title-img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.experience .experience-title-img .ex-img-1:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+.experience-title-img .ex-img-1 {
+    width: 550px;
+    height: 350px;
+    position: relative;
+    margin: 20px 20px;
+}
+
+.ex-img-1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.ex-img-1 p{
+    font-family: cursive;
+    background-color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* ---------Trip-Preparation--------- */    
+
+.block-trip {
+    position: relative;
+    margin-top: 400px;
+}
+
+.trip-preparation {
+    position: absolute;
+    z-index: 100;
+    top: -350px;
+    left: 19%;
+}
+
+.trip-preparation .trip-preparation-title {
+    margin-top: 50px;
+}
+
+.trip-preparation-title h1 {
+    text-decoration-line: underline;
+    text-align: center;
+    padding-right: 920px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.trip-preparation .trip-preparation-title-img {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.trip-preparation-title-img .pre-img-1 {
+    width: 550px;
+    height: 350px;
+    position: relative;
+    margin: 20px 20px;
+}
+
+.trip-preparation-title-img .pre-img-1:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+.pre-img-1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.pre-img-1 p{
+    font-family: cursive;
+    background-color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.block-bg-search {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    background-image: url(../image/bg-rv3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.block-bg-search img {
+    width: 100%;
+    height: 450px;
+}
+
+.block-bg-search h1 {
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+    font-family: cursive;
+    color: white;
+    font-size: 30px;
+}
+
+.block-bg-search .search-trip-preparation {
+    position: absolute;
+    bottom: 18%;
+    left: 35%;
+    border-radius: 20px;
+    background-color: #666;
+    width: 600px;
+    height: 90px;
+}
+
+.search-trip-preparation input {
+    padding: 20px 30px;
+    font-size: 25px;
+    width: 500px;
+    border: none;
+    margin: 10px 0 0 15px;
+    border-radius: 20px;
+}
+
+.search-trip-preparation button {
+    font-size: 25px;
+    padding: 18px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+}
+
+/* ----------introduce-------- */
+
+.introduce {
+    padding-bottom: 100px;
+}
+
+.introduce .introduce-danang {
+    padding: 60px 400px;
+}
+
+.introduce-danang h1 {
+    font-size: 25px;
+    font-family: cursive;
+    padding-bottom: 20px;
+}
+
+.introduce-danang h1:hover {
+    color: rgba(124, 154, 253, 0.904);
+    cursor: pointer;
+    
+}
+
+.introduce-danang p {
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ---------contact-------- */
+
+.contact {
+    padding: 50px 0;
+    background-image: url(../image/bg-rv3.jpg);
+    width: 100%;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    position: relative;
+}
+
+.contact .contact-title-top {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -80px;
+    left: 20%;
+    
+}
+
+.contact-title-top .title-top-left {
+    padding: 180px 50px 0px 20px;
+}
+
+.title-top-left h1 {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.title-top-left h1:hover {
+    color: white;
+}
+
+.title-top-left p {
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+
+.title-top-left .block-title-contact-top-left {
+    padding-top: 20px;
+}
+
+.block-title-contact-top-left input {
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+    width: 550px;
+}
+
+.block-title-contact-top-left button {
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    background-color: coral;
+} 
+
+.block-title-contact-top-left button:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.contact-title-top .title-top-right {
+    padding-right: 50px;
+    margin-top: 45px;
+
+}
+
+.title-top-right img {
+    width: 400px;
+    height: 350px;
+    border-top-left-radius: 400px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+
+    /* padding-bottom: 200px; */
+}
+
+.title-top-right img:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+}
+
+
+
+.contact .contact-title-bottom{
+    display: flex;
+    margin: 80px 0 80px 300px;
+    padding-top: 300px;
+}
+
+.block-contact-content {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.block-contact-content .contact-1 {
+
+}
+
+.contact-1 h3 {
+    padding-bottom: 10px;
+}
+
+.contact-1 p {
+    margin-bottom: 5px;
+}
+
+.block-contact-socical {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+
+.contact-1 , .contact-5 h3 {
+    padding-bottom: 10px;
+}
+
+.contact-1 , .contact-5 p {
+    margin-bottom: 5px;
+}
+
+.block-contact-socical .contact-5 {
+    
+}
+
+
+.div-socical ul li{
+    display: inline;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.block-contact-socical .contact-6 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:oblique;
+    color: rgba(21, 21, 22, 0.904);
+    font-size: 30px;
+}
+
+.contact .contact-copy-right {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-copy-right i {
+    padding-right: 5px;
+}
